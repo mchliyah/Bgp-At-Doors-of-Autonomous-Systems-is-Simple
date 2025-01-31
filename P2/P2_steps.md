@@ -35,7 +35,12 @@ based on the subject we have the following configuration
 |   router_mchliyah-2   |    eth1    | 30.1.1.3/24 |          |
 
 
+all command line for each machine is located in the file numbred to simplify copying all the comannds in one time
+
+but still we can follow this readme file for better understanding
+
 #### routers
+
 
 set he ip addreses
 
