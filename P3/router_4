@@ -8,9 +8,10 @@ brctl addif br0 eth0
 
 vtysh 
 
-config t
+conf t
 
-hostname router_mchliyah_4
+hostname router_mchliyah-4
+
 no ipv6 forwarding
 
 

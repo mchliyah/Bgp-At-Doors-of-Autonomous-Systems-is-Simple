@@ -1,15 +1,17 @@
 # bridge config
 
-brctl addbr br0 
+brctl addbr br0
 ip link set up dev br0
 ip link add vxlan10 type vxlan id 10 dstport 4789
 ip link set up dev vxlan10
 brctl addif br0 vxlan10
 brctl addif br0 eth1
 
-hostname router_mchliyah_1
-
 vtysh
+
+conf t
+
+hostname router_mchliyah-2
 
 no ipv6 forwarding
 

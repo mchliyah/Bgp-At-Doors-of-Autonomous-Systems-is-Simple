@@ -35,6 +35,8 @@ hostname router_mchliyah_1 # <reflector name>
 
 vtysh
 
+conf t
+
 no ipv6 forwarding
 ```
 ## Setup interface eth0
@@ -178,3 +180,11 @@ network 0.0.0.0/0 area 0
 
 line vty
 ```
+
+
+### hosts ip addresses add 
+
+``` bash 
+ip addr add 20.1.1.1/24 dev eth1 # host_1
+ip addr add 20.1.1.2/24 dev eth0 # host_2
+ip addr add 20.1.1.3/24 dev eth0 # host_3

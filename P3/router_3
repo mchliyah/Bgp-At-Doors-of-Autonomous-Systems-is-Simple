@@ -1,7 +1,7 @@
 vtysh
 config t
 
-hostname router_mchliyah_3 
+hostname router_mchliyah-3
 no ipv6 forwarding
 
 interface eth1
